@@ -54,6 +54,12 @@ public class Main {
         Train train = new Train();
         train.setId("train1");
         person.driving(train);
+        System.out.println("---------------------------------------------");
+
+
+        Ship ship = new Ship();
+        ship.setId("ship1");
+        person.driving(ship);
 
 
 
